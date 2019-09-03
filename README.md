@@ -1,5 +1,5 @@
-# Object Oriented Programming (Zoo)
-A repository to show the four pillars of Object Oriented Programming in C# (Encapsulation, Inheritance, Abstraction, Polymorphism).  
+# Object Oriented Programming (Garage)
+Objecte Oriented Programming is a type of programming that is based on the concept of creating or mimicking real world "objects" in code.  Each object may contain relevant data or methods.  This repository concentrates on the four pillars of Object Oriented Programming (Encapsulation, Inheritance, Abstraction, Polymorphism), and how it looks in C# through the domain of a Garage.  
 
 #### Mammal Heirarchy 
 ```
