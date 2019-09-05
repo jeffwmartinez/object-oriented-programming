@@ -2,7 +2,8 @@
 Object Oriented Programming is a type of programming that is based on the concept of creating or mimicking real world "objects" in code.  Each object may contain relevant data or methods.  This repository concentrates on the four pillars of Object Oriented Programming (Encapsulation, Inheritance, Abstraction, Polymorphism), and how it looks in C# through the domain of a Vehicle interacting with a Garage.  
 
 #### Vehicle Heirarchy 
-// PIC GOES HERE FROM LUCID CHART(contains list of attributes and methods/using UML diagram the right way)
+
+![O O P U M L](Garage/Assets/OOP_UML.png)
 
 ## Encapsulation
 Encapsulation is the concept of containing related attributes(data) and behavior(methods) inside of a single class.  This also allows you to restrict access from one class to another using C# access modifiers like private, protected, internal, etc.

@@ -7,8 +7,18 @@ namespace Garage.Abstract
 {
     public abstract class Motorcycle : Vehicle
     {
-        public virtual string Kickstart { get; set; }
+        // Attribute(s)
+        public virtual bool Kickstart { get; set; }
         public string Handlebars { get; set; }
+
+
+        /// <summary>
+        /// Uses the Front Brakes to slow down the Motorcycle
+        /// </summary>
+        public void FrontBrake()
+        {
+            Console.WriteLine("Front Brakes activated");
+        }
         
     }
 }
