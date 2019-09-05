@@ -4,7 +4,7 @@ Object Oriented Programming is a type of programming that is based on the concep
 
 #### Vehicle Heirarchy 
 
-![O O P Classes](Garage/Assets/OOP_Classes.png)
+![Vehicle U M L](Garage/Assets/Vehicle_UML.png)
 
 ## Encapsulation
 Encapsulation is the concept of containing related attributes(data) and behavior(methods) inside of a single class.  This also allows you to restrict access from one class to another using C# access modifiers like private, protected, internal, etc.
