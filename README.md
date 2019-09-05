@@ -2,7 +2,6 @@
 # Object Oriented Programming
 Object Oriented Programming is a type of programming that is based on the concept of creating or mimicking real world "objects" in code.  Each object may contain relevant data or methods.  This repository concentrates on the four pillars of Object Oriented Programming (**Encapsulation, Inheritance, Abstraction, Polymorphism**), and how it looks in C# through the domain of a Vehicle interacting with a Garage.  
 
-### Vehicle Class Heirarchy
 
 ![Vehicle U M L](Garage/Assets/Vehicle_UML.png)
 
