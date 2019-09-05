@@ -7,6 +7,16 @@ namespace Garage.Concrete
 {
     public class Tesla : Car
     {
-        public bool IsElectric { get; set; } = true;
+        // Attribute(s)
+        public bool IsElectric { get; set; }
+
+
+        /// <summary>
+        /// Make electric Tesla sounds
+        /// </summary>
+        public void MakeTelsaSounds()
+        {
+            Console.WriteLine("");
+        }
     }
 }

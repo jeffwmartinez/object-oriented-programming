@@ -7,37 +7,43 @@ namespace Garage
 {
     public class Garage
     {
+        // Attributes
         public bool IsFull { get; set; } = false;
         public int MaxNumberOfVehicles { get; set; }
-        public int NumberOfVehicles { get; set; }
+        public int CurrentNumberOfVehicles { get; set; }
 
         List<Vehicle> Vehicles = new List<Vehicle>();
 
-        public Garage()
-        {
-            MaxNumberOfVehicles = 2;
-            NumberOfVehicles = 0;
-        }
 
+        /// <summary>
+        /// Garage Class overload on constructor
+        /// </summary>
+        /// <param name="maxNumberOfVehicles">int</param>
+        /// <param name="currentNumberOfVehicles">int</param>
         public Garage(int maxNumberOfVehicles, int currentNumberOfVehicles)
         {
             MaxNumberOfVehicles = maxNumberOfVehicles;
-            NumberOfVehicles = currentNumberOfVehicles;
+            CurrentNumberOfVehicles = currentNumberOfVehicles;
         }
 
-        public void AddCarToGarage(Vehicle vehicle)
+
+        /// <summary>
+        /// Adds vehicle to the garage
+        /// </summary>
+        /// <param name="vehicle">Vehicle vehicle</param>
+        public void AddCar(Vehicle vehicle)
         {
 
-            if(MaxNumberOfVehicles >= NumberOfVehicles)
+            if(CurrentNumberOfVehicles >= MaxNumberOfVehicles)
             {
                 Console.WriteLine("Garage is Full!");
                 IsFull = true;
             }
             else
             {
-                Console.WriteLine($"One {vehicle.Make} parked in the garage");
+                Console.WriteLine($"One {vehicle.Make}, {vehicle.Model} parked in the garage");
                 Vehicles.Add(vehicle);
-                NumberOfVehicles++;
+                CurrentNumberOfVehicles++;
             }
         }
 

@@ -7,13 +7,21 @@ namespace Garage.Concrete
 {
     public class ModelX : Tesla
     {
-        public bool IsSuv { get; set; } = true;
+        // Attribute(s)
+        public bool IsSuv { get; set; } 
 
+
+        /// <summary>
+        /// Opens Falcon Wing Doors
+        /// </summary>
         public void OpenFalconWingDoors()
         {
             Console.WriteLine("Falcon Wing Doors Opened");
         }
 
+        /// <summary>
+        /// Defines how much the Registration fees are for the vehicle. An override method
+        /// </summary>
         public override void RegistrationFees()
         {
             Console.WriteLine("Model X Registration fees are $50");
